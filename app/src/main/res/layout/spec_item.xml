@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="#00FAEAB1"
+        android:textSize="25sp"
+        android:layout_marginStart="20dp"
+        android:text="@string/name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewClassificationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Classification:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewName"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewClassification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Classification"
+        android:layout_below="@+id/textViewClassificationLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewDesignationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Designation:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewClassification"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewDesignation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Designation"
+        android:layout_below="@+id/textViewDesignationLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewAverageHeightLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Average Height:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewDesignation"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewAverageHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Average Height"
+        android:layout_below="@+id/textViewAverageHeightLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewAverageLifespanLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Average Lifespan:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewAverageHeight"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewAverageLifespan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Average Lifespan"
+        android:layout_below="@+id/textViewAverageLifespanLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewEyeColorsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Eye Colors:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewAverageLifespan"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewEyeColors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Eye Colors"
+        android:layout_below="@+id/textViewEyeColorsLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewHairColorsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Hair Colors:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewEyeColors"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewHairColors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Hair Colors"
+        android:layout_below="@+id/textViewHairColorsLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+
+    <TextView
+        android:id="@+id/textViewSkinColorsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Skin Colors:"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewHairColors"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewSkinColors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Skin Colors"
+        android:layout_below="@+id/textViewSkinColorsLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewLanguageLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Language:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewSkinColors"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Language"
+        android:layout_below="@+id/textViewLanguageLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

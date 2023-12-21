@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout_About"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slider_bkg"
+    android:gravity="center"
+    tools:context=".AboutFragment">
+
+        <LinearLayout
+            android:id="@+id/layAlphaBkg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="1"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:rotation="180"
+            android:background="@drawable/stars_3"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.3"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:background="@drawable/stars_3"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:padding="15dp" >
+
+            <ImageView
+                android:id="@+id/img_swLogo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="40dp"
+                android:src="@drawable/sw_logo"
+                android:contentDescription="Logo"
+                tools:ignore="HardcodedText"/>
+
+            <ScrollView
+                android:id="@+id/scroll"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:id="@+id/linearLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="top">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="11sp"
+                        android:paddingBottom="10sp"
+                        android:textColor="#FFC107"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:rotationX="50"
+                        android:textSize="15sp"
+                        android:paddingTop="0sp"
+                        android:textColor="#FFC107"
+                        android:text="This program helps with"
+                        tools:ignore="HardcodedText"/>
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:rotationX="50"
+                        android:textSize="15sp"
+                        android:paddingTop="0sp"
+                        android:textColor="#FFC107"
+                        android:text="Star Wars stories learning"
+                        tools:ignore="HardcodedText"/>
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="0sp"
+                        android:rotationX="50"
+                        android:textSize="17sp"
+                        android:textColor="#FFC107"
+                        android:text="about characters, races, locations,"
+                        tools:ignore="HardcodedText"/>
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="0sp"
+                        android:rotationX="50"
+                        android:textSize="18sp"
+                        android:textColor="#FFC107"
+                        android:text="spaceships and vehicles."
+                        tools:ignore="HardcodedText"/>
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="0sp"
+                        android:rotationX="50"
+                        android:textSize="19sp"
+                        android:textColor="#FFC107"
+                        android:text="The program was created by:"
+                        tools:ignore="HardcodedText"/>
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="10sp"
+                        android:rotationX="50"
+                        android:textSize="20sp"
+                        android:textColor="#FFC107"
+                        android:text="API interface"
+                        tools:ignore="HardcodedText"/>
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="0sp"
+                        android:rotationX="50"
+                        android:textSize="25sp"
+                        android:textColor="#FFC107"
+                        android:text="Bernadett Ignácz"
+                        tools:ignore="HardcodedText"/>
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="10sp"
+                        android:rotationX="50"
+                        android:textSize="27sp"
+                        android:textColor="#FFC107"
+                        android:text="Reproduction of parts"
+                        tools:ignore="HardcodedText"/>
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="0sp"
+                        android:rotationX="50"
+                        android:textSize="32sp"
+                        android:textColor="#FFC107"
+                        android:text="György Horák"
+                        tools:ignore="HardcodedText"/>
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="10sp"
+                        android:rotationX="50"
+                        android:textSize="35sp"
+                        android:textColor="#FFC107"
+                        android:text="Design"
+                        tools:ignore="HardcodedText"/>
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="0sp"
+                        android:rotationX="50"
+                        android:textSize="42sp"
+                        android:textColor="#FFC107"
+                        android:text="László Pelsőczi"
+                        tools:ignore="HardcodedText"/>
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="0sp"
+                        android:rotationX="50"
+                        android:textSize="42sp"
+                        android:textColor="#FFC107"
+                        android:text="" />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linLayAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="320dp"
+            android:alpha="0"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/about_txt_size"
+                android:textColor="@color/about_text_color"
+                android:textAlignment="center"
+                android:text="This program helps with"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/about_txt_size"
+                android:textColor="@color/about_text_color"
+                android:textAlignment="center"
+                android:text="Star Wars stories learning"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/about_txt_size"
+                android:textColor="@color/about_text_color"
+                android:textAlignment="center"
+                android:text="about characters, races, locations,"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/about_txt_size"
+                android:textColor="@color/about_text_color"
+                android:textAlignment="center"
+                android:text="spaceships and vehicles."
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/about_txt_size"
+                android:textColor="@color/about_text_color"
+                android:textAlignment="center"
+                android:padding="20sp"
+                android:text="The program was created by:"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/about_txt_size"
+                android:textColor="@color/about_text_color"
+                android:textAlignment="center"
+                android:text="API interface"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/about_txt_size"
+                android:textColor="@color/about_text_color"
+                android:textAlignment="center"
+                android:text="Bernadett Ignácz"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/about_txt_size"
+                android:textColor="@color/about_text_color"
+                android:textAlignment="center"
+                android:paddingTop="20sp"
+                android:text="Reproduction of parts"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/about_txt_size"
+                android:textColor="@color/about_text_color"
+                android:textAlignment="center"
+                android:text="György Horák"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/about_txt_size"
+                android:textColor="@color/about_text_color"
+                android:textAlignment="center"
+                android:paddingTop="20sp"
+                android:text="Design"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/about_txt_size"
+                android:textColor="@color/about_text_color"
+                android:textAlignment="center"
+                android:text="László Pelsőczi"
+                tools:ignore="HardcodedText"/>
+
+        </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

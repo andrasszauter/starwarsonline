@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/optAbout"
+        android:title="@string/about"
+        android:icon="@drawable/ic_baseline_stars_24"/>
+
+    <item
+        android:id="@+id/optHome"
+        android:title="@string/home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/optFilms"
+        android:title="@string/films"
+        android:icon="@drawable/ic_baseline_movies_24"/>
+
+    <item
+        android:id="@+id/optPeoples"
+        android:title="@string/peoples"
+        android:icon="@drawable/ic_baseline_peoples_24"/>
+
+    <item
+        android:id="@+id/optPlanets"
+        android:title="@string/planets"
+        android:icon="@drawable/ic_baseline_planets_24"/>
+
+    <item
+        android:id="@+id/optSpecies"
+        android:title="@string/species"
+        android:icon="@drawable/ic_baseline_species_24"/>
+
+    <item
+        android:id="@+id/optStarships"
+        android:title="@string/starships"
+        android:icon="@drawable/ic_baseline_starships_24"/>
+
+    <item
+        android:id="@+id/optVehicles"
+        android:title="@string/vehicles"
+        android:icon="@drawable/ic_baseline_vehicles_24"/>
+
+</menu>

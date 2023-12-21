@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="#00FAEAB1"
+        android:textSize="25sp"
+        android:layout_marginStart="20dp"
+        android:text="@string/name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewDiameterLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Diameter:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewName"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewDiameter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Diameter"
+        android:layout_below="@+id/textViewDiameterLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewRotationPeriodLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Rotation Period:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewDiameter"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewRotationPeriod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Rotation Period"
+        android:layout_below="@+id/textViewRotationPeriodLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewOrbitalPeriodLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Orbital Period:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewRotationPeriod"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewOrbitalPeriod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Orbital Period"
+        android:layout_below="@+id/textViewOrbitalPeriodLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewGravityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Gravity:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewOrbitalPeriod"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewGravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Gravity"
+        android:layout_below="@+id/textViewGravityLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewPopulationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Population:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewGravity"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewPopulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Population"
+        android:layout_below="@+id/textViewPopulationLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewClimateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Climate:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewPopulation"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewClimate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Climate"
+        android:layout_below="@+id/textViewClimateLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/textViewTerrainLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Terrain:"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewClimate"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewTerrain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Terrain"
+        android:layout_below="@+id/textViewTerrainLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewSurfaceWaterLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Surface Water:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewTerrain"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewSurfaceWater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Surface Water"
+        android:layout_below="@+id/textViewSurfaceWaterLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="#00FAEAB1"
+        android:textSize="25sp"
+        android:layout_marginStart="20dp"
+        android:text="@string/name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewModelLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Model:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewName"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewModel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Model"
+        android:layout_below="@+id/textViewModelLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewStarshipClassLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Starship Class:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewModel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewStarshipClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Starship Class"
+        android:layout_below="@+id/textViewStarshipClassLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewManufacturerLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Manufacturer:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewStarshipClass"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewManufacturer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Manufacturer"
+        android:layout_below="@+id/textViewManufacturerLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewCostInCreditsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Cost in Credits:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewManufacturer"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewCostInCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Cost in Credits"
+        android:layout_below="@+id/textViewCostInCreditsLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewLengthLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Length:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewCostInCredits"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Length"
+        android:layout_below="@+id/textViewLengthLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewCrewLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Crew:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewLength"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewCrew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Crew"
+        android:layout_below="@+id/textViewCrewLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/textViewPassengersLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Passengers:"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewCrew"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewPassengers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Passengers"
+        android:layout_below="@+id/textViewPassengersLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewMaxAtmospheringSpeedLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Max Atmosphering Speed:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewPassengers"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewMaxAtmospheringSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Max Atmosphering Speed"
+        android:layout_below="@+id/textViewMaxAtmospheringSpeedLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewHyperdriveRatingLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Hyperdrive Rating:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewMaxAtmospheringSpeed"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewHyperdriveRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Hyperdrive Rating"
+        android:layout_below="@+id/textViewHyperdriveRatingLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewMGLTLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Maximum number of Megalights:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewHyperdriveRating"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewMGLT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="MGLT"
+        android:layout_below="@+id/textViewMGLTLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewCargoCapacityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Cargo Capacity:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewMGLT"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewCargoCapacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Cargo Capacity"
+        android:layout_below="@+id/textViewCargoCapacityLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewConsumablesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Consumables:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewCargoCapacity"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewConsumables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Consumables"
+        android:layout_below="@+id/textViewConsumablesLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
